@@ -473,9 +473,24 @@
             </li>
           </ul>
         </div>
-        <div class="footer-input">
-          <p class="footer-container-text">Subscribe</p>
-          <input type="footer-email" name="email" placeholder="E-mail" />
+        <div class="footer-input-btn">
+          <div class="footer-input">
+            <p class="footer-container-text">Subscribe</p>
+            <input
+              class="footer-email"
+              type="footer-email"
+              name="email"
+              placeholder="E-mail"
+            />
+          </div>
+          <div class="footer-block-btn">
+            <button class="footer-btn" type="button">
+              Subscribe
+              <svg class="footer-btn-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-frame"></use>
+              </svg>
+            </button>
+          </div>
         </div>
       </div>
     </footer>
@@ -547,8 +562,8 @@
             </div>
           </div>
           <div class="form-field">
+            <input class="accept" type="checkbox" name="accept" id="accept" />
             <label class="checkbox-label" for="accept">
-              <input class="accept" type="checkbox" name="accept" />
               <span>
                 <svg class="icon-accept" width="10" height="8">
                   <use href="./images/icons.svg#icon-vector"></use>
