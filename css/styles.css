@@ -471,6 +471,10 @@ img {
   align-items: baseline;
 }
 
+.footer-container-icon {
+  margin-right: 80px;
+}
+
 .footer-container-text {
   font-weight: 500;
   font-size: 16px;
@@ -517,13 +521,12 @@ img {
 
 .footer-input-btn {
   display: flex;
-  align-items: end;
-  justify-content: center;
-  margin-left: 80px;
+
+  flex-direction: column;
+  align-items: baseline;
 }
 .footer-input {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   gap: 24px;
 }
