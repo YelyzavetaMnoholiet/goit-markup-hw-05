@@ -614,10 +614,6 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-exit {
-  display: flex;
-  justify-content: flex-end;
-}
 .exit-btn {
   position: absolute;
   top: 24px;
@@ -649,7 +645,7 @@ img {
 
 .form-exit:hover,
 .form-exit:focus {
-  fill: #fff;
+  fill: #ffffff;
 }
 
 .modal-title {
